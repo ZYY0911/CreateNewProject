@@ -25,4 +25,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'org.litepal.android:java:3.0.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.haibin:calendarview:3.6.2'
+    implementation 'com.contrarywind:Android-PickerView:4.1.7'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation files('libs/volley.jar')
+    implementation 'me.yokeyword:fragmentation:1.3.6'
+    implementation 'me.yokeyword:fragmentation-swipeback:1.3.6'
+    implementation 'org.greenrobot:eventbus:3.1.1'
 }
